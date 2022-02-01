@@ -1,6 +1,6 @@
-                                                            <h3> PROYECTO FIUBA PYTHON 2022 (Cátedra:Guarna) <h3>
+<h3> PROYECTO FIUBA PYTHON 2022 (Cátedra:Guarna) <h3>
                                                             
-  <h3>Objetivo<h3>
+<h3>Objetivo<h3>
 <p> Construir un programa en etapas, que permita jugar al ahorcado, teniendo en cuenta
 las reglas que más adelante se detallan.
 Si nunca has jugado al ahorcado, es recomendable que busques una versión para
