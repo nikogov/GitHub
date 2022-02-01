@@ -1,7 +1,9 @@
+#defino una función que me va a devolver el texto del cual extraerán las palabras para formar el diccionario
 def solicitar_texto(mensaje):
     texto = input(mensaje)
     return texto
 
+#defino la función que va a procesar el texto
 def procesar_texto():
     parrafo = solicitar_texto('Ingrese el texto: ')
     parrafo = parrafo.lower()
