@@ -5,7 +5,9 @@ las reglas que más adelante se detallan.
 Si nunca has jugado al ahorcado, es recomendable que busques una versión para
 jugar en línea, y dediques un instante a jugar. Ten en cuenta que las reglas que
 estableceremos a continuación, pueden diferir del cual vos hayas jugado.
+  
 <u>Etapa 1 - Interacción con el Jugador:<u>
+  
 En esta etapa deberás escribir las funciones que consideres necesarias, y que
 permitan una interacción con el jugador, que siga los lineamientos que se dan a
 continuación.
@@ -40,7 +42,9 @@ cantidad de letras, debe ser no tenido en cuenta, advirtiendo con el mensaje
 Para poder probar esta etapa, simplemente utiliza una palabra a adivinar que se
 pueda establecer fácilmente, es recomendable pasar la palabra en cuestión, a través
 de un parámetro.
+  
 <u>Etapa 2 - Construcción de un Diccionario de Palabras candidatas:<u>
+  
 Ahora el objetivo será generar un diccionario de palabras candidatas a adivinar.
 Se les proveerá de una función que devolverá un texto del cual extraerán las
 palabras para formar el diccionario. El texto debe ser procesado, de forma tal de
@@ -53,7 +57,9 @@ resultado, ordenado alfabéticamente; e informar el total de palabras que hay en
 diccionario.
 Probá lo realizado en esta etapa, controla que tu generación de palabras sea
 correcta.
+  
 <u>Etapa 3 - Elección de palabra candidata a Adivinar por el Jugador:<u>
+  
 Ahora que tenemos nuestro diccionario, podremos utilizarlo para obtener una palabra
 candidata a adivinar.
 Escribí una función, que reciba como primer parámetro el diccionario, y un segundo
@@ -66,7 +72,9 @@ un conjunto de todas las palabras con dicha longitud, y entonces, recién sobre 
 grupo, elegir una de forma aleatoria, utilizando la librería correspondiente.
 Para probar tu función, utiliza un ciclo que invoque al menos 100 veces tu función, y
 analiza lo que obtienes como palabra a adivinar. Repite el proceso varias veces.
+  
 <u>Etapa 4 - Integración:<u>
+  
 En esta etapa debemos integrar las funcionalidades resueltas en cada una de las
 etapas anteriores, haciendo un uso adecuado de las funciones escritas.
 La secuencia del juego debe ser la siguiente:
@@ -78,7 +86,9 @@ El programa elegirá al azar una palabra a adivinar por el jugador.
 Elegida la palabra, mostrará tantos signos de pregunta como letras compongan la
 palabra elegida, y a continuación le pedirá al jugador que ingrese una letra,
 implementando así, lo realizado en la etapa 3.
+  
 <u>Etapa 5 - Puntaje:<u>
+  
 Hasta ahora nuestro jugador, simplemente gana o pierde.
 En esta etapa vamos a permitir que obtenga puntaje y que el mismo se acumule de
 partida en partida.
