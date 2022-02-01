@@ -16,8 +16,10 @@ Inicialmente, comenzaremos por mostrar tantos signos de preguntas como letras
 componen la palabra a adivinar, y a continuación pediremos el ingreso de una letra.
 Supongamos que la palabra a adivinar es “naranja”, veremos algo parecido a lo
 siguiente:
+  
 Palabra a adivinar: ??????? Aciertos: 0 Desaciertos: 0
 Ingrese Letra: _
+  
 Un jugador puede tener como máximo 7 desaciertos por palabra a adivinar, de tal
 modo que el jugador ganará si adivinó la palabra y tuvo menos de 8 desaciertos, o
 perderá si llegó al 8vo. desacierto.
@@ -25,14 +27,18 @@ En cada interacción se debe pedir al jugador el ingreso de una letra, si la let
 encuentra en la palabra a adivinar, se debe mostrar en las posiciones que se
 encuentra, por ejemplo: si la palabra a adivinar es “naranja” y el jugador ingresó la
 letra “a”, entonces se debe mostrar:
+  
 Muy bien!!! → ?a?a??a Aciertos: 1 Desaciertos: 0
 Ingrese Letra: _
+  
 A continuación se debe solicitar el ingreso de otra letra. Si el jugador vuelve a
 ingresar una “a”, debería recibir un mensaje de “Letra ya ingresada”.
 Si la letra ingresada por el jugador es una letra inexistente en la palabra, entonces,
 se debe sumar su desacierto, por ejemplo, ingresó una “p”:
+  
 Lo siento!!! → ?a?a??a Aciertos: 1 Desaciertos: 1
 Ingrese Letra: _
+  
 Los ingresos de letras deberían terminar ó porque se alcanzó la cantidad máxima de
 desaciertos, ó porque el jugador adivinó la palabra. Sería bueno también que se
 pueda abandonar el ingreso, por ejemplo, si el usuario en lugar de ingresar una
