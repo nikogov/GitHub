@@ -7,7 +7,7 @@ Si nunca has jugado al ahorcado, es recomendable que busques una versión para
 jugar en línea, y dediques un instante a jugar. Ten en cuenta que las reglas que
 estableceremos a continuación, pueden diferir del cual vos hayas jugado.
   
-<u> Etapa 1 - Interacción con el Jugador: <u>
+<b>Etapa 1 - Interacción con el Jugador:<b>
   
 En esta etapa deberás escribir las funciones que consideres necesarias, y que
 permitan una interacción con el jugador, que siga los lineamientos que se dan a
@@ -50,7 +50,7 @@ Para poder probar esta etapa, simplemente utiliza una palabra a adivinar que se
 pueda establecer fácilmente, es recomendable pasar la palabra en cuestión, a través
 de un parámetro.
   
-<u>Etapa 2 - Construcción de un Diccionario de Palabras candidatas:<u>
+<b>Etapa 2 - Construcción de un Diccionario de Palabras candidatas:<b>
   
 Ahora el objetivo será generar un diccionario de palabras candidatas a adivinar.
 Se les proveerá de una función que devolverá un texto del cual extraerán las
@@ -65,7 +65,7 @@ diccionario.
 Probá lo realizado en esta etapa, controla que tu generación de palabras sea
 correcta.
   
-<u>Etapa 3 - Elección de palabra candidata a Adivinar por el Jugador:<u>
+<b>Etapa 3 - Elección de palabra candidata a Adivinar por el Jugador:<b>
   
 Ahora que tenemos nuestro diccionario, podremos utilizarlo para obtener una palabra
 candidata a adivinar.
@@ -80,7 +80,7 @@ grupo, elegir una de forma aleatoria, utilizando la librería correspondiente.
 Para probar tu función, utiliza un ciclo que invoque al menos 100 veces tu función, y
 analiza lo que obtienes como palabra a adivinar. Repite el proceso varias veces.
   
-<u>Etapa 4 - Integración:<u>
+<b>Etapa 4 - Integración:<b>
   
 En esta etapa debemos integrar las funcionalidades resueltas en cada una de las
 etapas anteriores, haciendo un uso adecuado de las funciones escritas.
@@ -94,7 +94,7 @@ Elegida la palabra, mostrará tantos signos de pregunta como letras compongan la
 palabra elegida, y a continuación le pedirá al jugador que ingrese una letra,
 implementando así, lo realizado en la etapa 3.
   
-<u>Etapa 5 - Puntaje:<u>
+<b>Etapa 5 - Puntaje:<b>
   
 Hasta ahora nuestro jugador, simplemente gana o pierde.
 En esta etapa vamos a permitir que obtenga puntaje y que el mismo se acumule de
